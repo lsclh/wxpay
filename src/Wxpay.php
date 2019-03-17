@@ -27,14 +27,15 @@ class Wxpay{
     private $response = null;
 
     public function __construct(Request $request,Response $response){
-        $data['appid'] = 'wx42c7b18c52a1dc1b';
-        $data['mch_id'] = '1491271452';
-        $data['pay_apikey'] = 'IVArDnCv6NMiuNCDuDE2CV19pJTfvXlk';
-        $data['api_cert'] =  EASYSWOOLE_ROOT.'/cert/apiclient_cert.pem';
-        $data['api_key'] = EASYSWOOLE_ROOT.'/cert/apiclient_key.pem';
+        $data['appid'] = ''; //appid
+        $data['mch_id'] = ''; //商户号
+        $data['pay_apikey'] = ''; //密钥
+        $data['api_cert'] = '';//apiclient_cert.pem证书
+        $data['api_key'] = '';//apiclient_key.pem证书
         $this->request = $request;
         $this->response = $response;
         $this->config = $data;
+        
         $response->withHeader('Content-type', 'text/html;charset=UTF-8');
     }
 
