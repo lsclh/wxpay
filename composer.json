@@ -1,7 +1,7 @@
 {
     "autoload": {
     	"psr-4": {
-        	"Lsclh\Wxpay\\": "src/"
+        	"Lsclh\\Wxpay\\": "src/"
 		}
     },
     "name": "lsclh/wxpay",
