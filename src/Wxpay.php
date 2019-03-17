@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------
 // | Author: 程立弘 <1019759208@qq.com>
 // +----------------------------------------------------------------------
-namespace Wxpay;
+namespace Lsclh\Wxpay;
 //小程序与公众号微信支付封装
 use EasySwoole\Http\Request;
 use EasySwoole\Curl\Request as Curl;
